@@ -4,14 +4,16 @@ botonMascotaJugador.addEventListener('click', seleccionarMascotaJugador);
 }
 
 function seleccionarMascotaJugador(){
-    if (document.getElementById("hypodoge").checked == true){
-        alert("Usted ha seleccionado hypodoge")
-    }
-    else if (document.getElementById("capipepo").checked == true){
-        alert("Usted ha seleccionado capipepo")
-    }
-    else if (document.getElementById("ratigueya").checked == true){
-        alert("Usted ha seleccionado ratigueya")
+    let inputHypodoge = document.getElementById("hypodoge");
+    let inputCapipepo = document.getElementById("capipepo");
+    let inputRatigueya =document.getElementById("ratigueya");
+
+    if (inputHypodoge.checked){
+        alert("Usted ha seleccionado a Hypodoge")
+    }else if (inputCapipepo.checked){
+        alert("Usted ha seleccionado a Capipepo")
+    }else if (inputRatigueya.checked){
+        alert("Usted ha seleccionado a Ratigueya")
     }
 }
 
