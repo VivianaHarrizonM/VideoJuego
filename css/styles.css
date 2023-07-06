@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dosis&display=swap');
+
+
+*{ /*margin: 0; 
+   padding: 0;*/
+   box-sizing: border-box;
+   
+} 
+body{
+ background-color: #0079FF;
+}
+
+#seleccionar-mascota{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.titulo{
+   color:white;;
+   font-family: 'Black Ops One', cursive;
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+.subtitulo{
+   font-size: 2rem;
+   color: white;
+}
+.tarjetas{
+   display: flex;
+   gap: 10px;
+}
+
+
+.tarjeta-de-mokepon{
+   width: 180px;
+   height: 100px;
+   background-color: #00DFA2;
+   border-radius: 20px;
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+   color: white;
+ }
+
+ .tarjeta-de-mokepon img {
+   width: 80px;
+ }
+
+ #boton-mascota{
+   width: 180px;
+   height: 40px;
+   background: transparent;
+   border: 2px solid #00DFA2;
+   border-radius: 20px;
+   color: white;
+   margin: 40px;
+}
+
+input{
+   display: none;
+}
+
+#seleccionar-ataque{
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .boton-de-ataque{
+   background-color: #00DFA2;
+   border-color: transparent;
+   border-radius: 20px;
+   margin: 10px;
+   padding: 10px;
+   width: 100px;
+   color: white;
+   font-family: 'Dosis', sans-serif;
+ }
+
+ #mensajes{
+   width: 300px;
+   background: transparent;
+   border: 2px solid #00DFA2;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #boton-reiniciar{
+   margin-left: 20px;
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-family: 'Dosis', sans-serif;
+
+ }
+
